@@ -3,7 +3,7 @@ __author__ = 'Roman Solovyev: https://github.com/ZFTurbo'
 
 import torch
 
-def convert_2d_weights_to_3d(state_dict, verbose=True):
+def convert_2d_weights_to_3d(state_dict, verbose=False):
     layers = list(state_dict.keys())
     for layer in layers:
         if (
