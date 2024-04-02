@@ -234,6 +234,7 @@ res = model(torch.randn(4, 1, 224, 128, 12))
 
  * [https://github.com/qubvel/segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) - original segmentation 2D repo
  * [segmentation_models_3D](https://github.com/ZFTurbo/segmentation_models_3D) - segmentation models in 3D for keras/tensorflow
+ * [timm_3d](https://github.com/ZFTurbo/timm_3d) - classification models in 3D for pytorch
  * [volumentations](https://github.com/ZFTurbo/volumentations) - 3D augmentations
 
 ## Citation
