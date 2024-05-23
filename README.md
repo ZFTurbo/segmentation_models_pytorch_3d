@@ -6,7 +6,7 @@ This library is based on famous [Segmentation Models Pytorch](https://github.com
 
 ## Installation
 
-* Type 1: `pip install segmentation_models_pytorch_3d`
+* Type 1: `pip install segmentation-models-pytorch-3d`
 * Type 2: Copy `segmentation_models_pytorch_3d` folder from this repository in your project folder.
 
 ## Quick start
