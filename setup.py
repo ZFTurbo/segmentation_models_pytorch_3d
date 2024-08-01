@@ -5,7 +5,7 @@ except ImportError:
 
 setup(
     name='segmentation_models_pytorch_3d',
-    version='1.0.1',
+    version='1.0.2',
     author='Roman Sol (ZFTurbo)',
     packages=[
         'segmentation_models_pytorch_3d',
@@ -35,6 +35,7 @@ setup(
         "pretrainedmodels==0.7.4",
         "efficientnet-pytorch==0.7.1",
         "timm==0.9.7",
+        "timm-3d==1.0.1",
         "tqdm",
         "pillow",
         "six",
