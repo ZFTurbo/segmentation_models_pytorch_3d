@@ -1,4 +1,4 @@
-import timm
+import timm_3d
 import torch.nn as nn
 
 
@@ -17,7 +17,7 @@ class TimmUniversalEncoder(nn.Module):
         if output_stride == 32:
             kwargs.pop("output_stride")
 
-        self.model = timm.create_model(name, **kwargs)
+        self.model = timm_3d.create_model(name, **kwargs)
 
         self._in_channels = in_channels
         self._out_channels = [

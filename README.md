@@ -198,6 +198,20 @@ Note: In the official github repo the s0 variant has additional num_conv_branche
 </div>
 </details>
 
+### Timm 3D encoders
+
+We now support encoders from [timm_3d](https://github.com/ZFTurbo/timm_3d) library. Full list available [here](https://github.com/ZFTurbo/timm_3d/blob/main/docs/models_list.md). To use them add `tu-` before encoder name.
+Example:
+
+```python
+encoder_name = 'tu-maxvit_base_tf_224.in21k'
+model = smp.Unet(
+    encoder_name=encoder_name,
+    encoder_weights=None,
+    in_channels=3,
+    classes=1,
+)
+```
 
 ## Notes for 3D version
 

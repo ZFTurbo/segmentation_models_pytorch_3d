@@ -245,3 +245,16 @@ if __name__ == '__main__':
             )
             o = model(torch.randn(2, 3, 32, 64, 128))
             print(f'Result shape: {o.shape}')
+
+    if 1:
+        encoder_name = 'tu-maxvit_base_tf_224.in21k'
+        print('Test Timm 3d model: {}...'.format(encoder_name))
+        print('Go for {}'.format(encoder_name))
+        model = smp.Unet(
+            encoder_name=encoder_name,
+            encoder_weights=None,
+            in_channels=3,
+            classes=1,
+        )
+        o = model(torch.randn(2, 3, 128, 64, 64))
+        print(f'Result shape: {o.shape}')
