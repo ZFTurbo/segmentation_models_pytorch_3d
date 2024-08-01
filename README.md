@@ -269,4 +269,3 @@ If you find this code useful, please cite it as:
 
 ## To Do List
 * Support for strides for all encoders
-* Add timm_ models
